@@ -1,0 +1,60 @@
+.resume{
+    border: 2px solid;
+    background-color: transparent;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 50%;
+    position: relative;
+    margin-left: 40%;
+
+}
+.image{
+    position: absolute; 
+    top: 20px; 
+    right: 40px; 
+}
+h1{
+    font-size: 150%;
+}
+h2, h3, h4{
+    font-size: 17px;
+}
+.acad, .acad2, .acad3{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.ter, .sec, .prim {
+    width: 70%;
+    text-align: left;
+}
+.ter p, .sec p, .prim p{
+    margin: 0;
+}
+.ter p:first-child, .sec p:first-child, .prim p:first-child{
+    margin-top: 5%;
+}
+.left {
+    width: 30%; 
+    text-align: left;
+}
+button{
+    position:fixed;
+    top: 30px;
+    left: 30px;
+    border: 2px solid;
+    color: black;
+    background-color: transparent;
+    padding: 20px;
+    text-align: center;
+    font-size: medium;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+button:hover{
+    background-color: gray;
+    color: white;
+}
+.obj{
+    text-align: justify;
+}
